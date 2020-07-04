@@ -5,12 +5,14 @@ pip国内镜像
 
 设置pip.conf
 
-mkdir .pip  
+> $ mkdir .pip  
 
 建立 pip.conf
 
+```conf
 [global]
-index-url = https://mirrors.aliyun.com/pypi/simple/
+index-url=https://mirrors.aliyun.com/pypi/simple/
 
 [install]
 trusted-host=mirrors.aliyun.com
+```

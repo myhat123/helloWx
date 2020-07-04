@@ -16,6 +16,7 @@ client.user.iter_followers()
 
 消息格式是xml
 
+```xml
 <xml>
 <MsgType><![CDATA[text]]></MsgType>
 <Content><![CDATA[hi]]></Content>
@@ -23,3 +24,4 @@ client.user.iter_followers()
 <ToUserName><![CDATA[oSOaDuJJD0EcvyLVnXRKFzT7accw]]></ToUserName>
 <CreateTime>1593868008</CreateTime>
 </xml>
+```
